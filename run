@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "Compiling..."
+erlc -W problem$1.erl
+echo "Compiled!"
+echo "Running..."
+time erun $1
+echo "Done!"

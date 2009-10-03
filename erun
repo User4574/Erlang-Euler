@@ -1,0 +1,5 @@
+#!/usr/bin/env escript
+
+main([S]) ->
+	A = list_to_atom("problem"++S),
+	io:format("*** Answer is: ~p ***",[A:solve()]).
