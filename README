@@ -1,0 +1,6 @@
+To run:
+	Enter `run $PROBLEM_NUMBER` and wait for the answer
+E.G.:
+	run 1
+
+The run and erun scripts work together to compile problem$X.erl and evaluate problem$X:solve().
